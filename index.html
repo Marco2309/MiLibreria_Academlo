@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>librearia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body class="bg-dark">
+    <h1 class="text-primary m-5">Mi libreria</h1>
+    <!-- forEach -->
+    <section class="card m-5">
+        <div class="card-header">
+            For Each
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">por cada numero en el arreglo, multiplicalo por 2</h5>
+          <p class="card-text">areglo = [-1, 0, 1, 2, 4, 8, 16, 32, 64]</p>
+          <strong>para este en particulr deberas ver el resultado en consola pues no devuelve un array como map por ejempo</strong>
+          <button type="button" class="btn btn-primary" onclick="alertPorCada()">Probar</button>
+        </div>
+      </section>
+
+      <!-- Filter -->
+    <section class="card m-5">
+        <div class="card-header">
+            Filter
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">por cada numero en el arreglo, busca todos los mayores o igual a 18</h5>
+          <p class="card-text">areglo = [-1, 0, 1, 2, 4, 8, 16, 32, 64]</p>
+          <button type="button" class="btn btn-primary" onclick="alertFiltra()">Probar</button>
+        </div>
+      </section>
+
+      <!-- Map -->
+    <section class="card m-5">
+        <div class="card-header">
+            Map
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">por cada numero en el arreglo, multiplicalo por 2</h5>
+          <p class="card-text">areglo = [-1, 0, 1, 2, 4, 8, 16, 32, 64]</p>
+          <button type="button" class="btn btn-primary" onclick="alertMapea()">Probar</button>
+        </div>
+      </section>
+
+      <!-- Find -->
+    <section class="card m-5">
+        <div class="card-header">
+            Find
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">por cada numero en el arreglo, busca el primero mayor que 18</h5>
+          <p class="card-text">areglo = [-1, 0, 1, 2, 4, 8, 16, 32, 64]</p>
+          <button type="button" class="btn btn-primary" onclick="alertEncuentra()">Probar</button>
+        </div>
+      </section>
+
+      <!-- FindIndex -->
+    <section class="card m-5">
+        <div class="card-header">
+            FindIndex
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Encuentra el incice del primer numero mayor o igual a 18</h5>
+          <p class="card-text">areglo = [-1, 0, 1, 2, 4, 8, 16, 32, 64]</p>
+          <button type="button" class="btn btn-primary" onclick="alertEncuentraIndice()">Probar</button>
+        </div>
+      </section>
+
+      <!-- Contains -->
+    <section class="card m-5">
+        <div class="card-header">
+            Contains
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Devuelve verdadero si el valor está presente en la lista </h5>
+          <p class="card-text">areglo = [-1, 0, 1, 2, 4, 8, 16, 32, 64] <br>valor = 12</p>
+          <button type="button" class="btn btn-primary" onclick="alertContiene()">Probar</button>
+        </div>
+      </section>
+
+      <!-- Pluck -->
+    <section class="card m-5">
+        <div class="card-header">
+            Pluck
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Extrae todos los valores de la propiedad name en el array de objetos users</h5>
+          <p class="card-text">users = [{nombre: 'Marco', edad: 22}, {nombre: 'Monica', edad: 26}, {nombre: 'Esmeralda', edad: 24}]</p>
+          <button type="button" class="btn btn-primary" onclick="alertExtrae()">Probar</button>
+        </div>
+      </section>
+
+      <!-- Without -->
+    <section class="card m-5">
+        <div class="card-header">
+            Without
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Devuelve una copia de la matriz sin los valores especificados.</h5>
+          <p class="card-text">areglo = [-1, 0, 1, 2, 4, 8, 16, 32, 64] valores especificados = 2, 4, 8</p>
+          <button type="button" class="btn btn-primary" onclick="alertSin()">Probar</button>
+        </div>
+      </section>
+    
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
